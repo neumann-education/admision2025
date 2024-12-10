@@ -43,6 +43,10 @@
             font-size: 0.9rem;
             color: #6a1b9a;
         }
+        .breakable-link {
+        word-wrap: break-word; /* Permite dividir palabras largas en varias líneas */
+        white-space: normal;   /* Asegura que el texto se ajuste al contenedor */
+          }
     </style>
 </head>
 <body>
@@ -310,7 +314,7 @@
                 <input type="checkbox" class="form-check-input" id="politicas" name="politicas" required>
                 <label for="politicas" class="form-check-label">
                     Declaro haber leído la política de privacidad de Neumann y doy mi consentimiento para el tratamiento de mis datos personales de acuerdo a los términos de está.
-                    <a href="https://www.neumann.edu.pe/politicasdeprivacidad/" target="_blank">www.neumann.edu.pe/politicasdeprivacidad/</a>
+                    <a href="https://www.neumann.edu.pe/politicasdeprivacidad/" target="_blank" class="breakable-link">www.neumann.edu.pe/politicasdeprivacidad/</a>
                 </label>
             </div>
             
